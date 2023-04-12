@@ -13,7 +13,7 @@ export const SecondsCounter = (props) => {
                 
                 <div className="card text-bg-dark text-center" style={{width: "10rem", minHeight: "10rem"}}>
                             
-                    <p className="card-text my-auto" style={{fontSize: "10rem"}}><i className="fa-regular fa-clock"></i></p>
+                    <p className="card-text my-auto" style={{fontSize: "8rem"}}><i className="fa-regular fa-clock"></i></p>
                         
                                 
                 </div>
