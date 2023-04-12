@@ -40,7 +40,7 @@ export const SecondsNumber = (props) =>{
                     <div className="card text-bg-dark text-center" style={{width: "10rem", minHeight: "10rem"}}>
                             
                         <p className="card-text my-auto" style={{fontSize: "10rem"}}>{props.second}</p>
-                        {props.children}
+                        
                             
                     </div>
                     
