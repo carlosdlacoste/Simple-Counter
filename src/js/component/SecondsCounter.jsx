@@ -9,7 +9,9 @@ export const SecondsCounter = (props) => {
    
    return (
         <>
-            <div className="row justify-content-between bg-secondary">
+            
+
+            <div className="row bg-secondary justify-content-around">
                 
                 <div className="card text-bg-dark text-center" style={{width: "10rem", minHeight: "10rem"}}>
                             
@@ -23,6 +25,7 @@ export const SecondsCounter = (props) => {
                 <SecondsNumber second={parseInt(props.timer / 100 % 10)}/>
                 <SecondsNumber second={parseInt(props.timer / 10 % 10)}/>
                 <SecondsNumber second={parseInt(props.timer % 10)}/>
+                    
             </div>
         </>
            
